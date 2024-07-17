@@ -8,6 +8,10 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import androidstudio from "./tech/androidstudio.png";
+import kotlin from "./tech/kotlin.png";
+import firebase from "./tech/firebase.png";
+import expo from "./tech/expo.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -24,6 +28,7 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import silverlogo from "./company/silverlogo.svg";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -55,8 +60,13 @@ export {
   meta,
   shopify,
   starbucks,
+  silverlogo,
   tesla,
   carrent,
   jobit,
   tripguide,
+  androidstudio,
+  kotlin,
+  firebase,
+  expo
 };

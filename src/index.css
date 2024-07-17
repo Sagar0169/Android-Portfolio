@@ -13,6 +13,9 @@
   color-scheme: dark;
 }
 
+.custom-cursor .Typewriter__cursor {
+  color: #915EFF; /* Your desired cursor color */
+}
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
