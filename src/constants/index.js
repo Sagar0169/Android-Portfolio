@@ -28,6 +28,8 @@ import {
   kotlin,
   firebase,
   expo,
+  khelsathi,
+  One_to_One,
 } from "../assets";
 
 export const navLinks = [
@@ -99,11 +101,11 @@ const technologies = [
   },
 
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
 ];
@@ -192,6 +194,7 @@ const testimonials = [
 
 const projects = [
   {
+    id:1,
     name: "One-to-One Chat App",
     description:
       "Developed a secure chat app with user account creation, login, and real-time communication features using Kotlin and Android Studio, ensuring robust security and ease of access.",
@@ -209,10 +212,12 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: One_to_One,
     source_code_link: "https://github.com/Sagar0169/KhelSathi",
+    playstore: "",
   },
   {
+    id:2,
     name: "Project Management Tool",
     description:
       "Developed an inter-office project management tool to streamline task assignment, project tracking, and status monitoring, utilizing React Native, JavaScript, Redux, and Firebase.",
@@ -226,12 +231,36 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Js",
+        name: "Java Script",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/Sagar0169/Project-Management",
+    playstore: "",
+  },
+  {
+    id:3,
+    name: "Khel Sathi",
+    description:
+      "Developed a sports management app for the Government of Uttar Pradesh, enabling multilingual support. Built with Kotlin, Android Studio, and Firebase for efficiency and scalability.",
+    tags: [
+      {
+        name: "Android Studio",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kotlin",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: khelsathi,
+    source_code_link: "https://github.com/Sagar0169/KhelSathi",
+    playstore: "https://play.google.com/store/search?q=khel%20sathi&c=apps&hl=en",
   },
   // {
   //   name: "Trip Guide",
